@@ -125,7 +125,7 @@ const About = () => {
 
 						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10">
 							<div className="lg:w-2/3  text-gray-600">
-								<div className="text-xl font-semibold">
+								<div className="text-5xl font-semibold">
 									{INFO.about.title}
 								</div>
 								<div className="text-base mt-4">
