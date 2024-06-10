@@ -1,4 +1,4 @@
-@import "../../../data/styles.css";
+/* @import "../../../data/styles.css";
 
 .nav-container {
 	margin: 0;
@@ -20,9 +20,9 @@
 	width: 380px;
 	height: 40px;
 	padding-left: 0%;
-	padding-right: 0%;
-	/* background: #fff; */
-	backdrop-filter: blur(10px);
+	padding-right: 0%; */
+/* background: #fff; */
+/* backdrop-filter: blur(10px);
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
 	border-radius: 40px;
 }
@@ -35,7 +35,6 @@
 	margin-left: -16px;
 	margin-right: 20px;
 	margin-top: 11px;
-	/* font-weight: bold; */
 }
 
 .nav-item {
@@ -45,7 +44,7 @@
 
 .nav-item.active a {
 	color: var(--link-color) !important;
-	/* font-weight: bolder; */
+
 }
 
 .nav-item a {
@@ -56,9 +55,9 @@
 .nav-item a:hover {
 	color: var(--link-color);
 	transition: color 0.3s ease-in-out;
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	.navbar {
 		margin-left: 25%;
 		margin-right: 25%;
@@ -74,4 +73,4 @@
 	.nav-item {
 		font-weight: bold;
 	}
-}
+} */
