@@ -31,45 +31,36 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Global Speak",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed the GlobalSpeak project utilizing OpenAI's Whisper model for advanced speech processing tasks such as language detection, transcription, and translation, while also enhancing emotion detection for improved multilingual and emotional communication analysis.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "E-commerce Application",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developed a responsive eBay product search web and iOS application using the MEAN stack and Swift, enhancing user experience with mobile-friendly interfaces and deploying on Google Cloud Platform for scalability.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 3",
+			title: "CommunicAID Sign Language Recognition Application",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Created a sign language recognition app that facilitates communication for the hearing and speech-impaired in banking sectors, achieving 85% accuracy and contributing to academic research with a published paper.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 4",
+			title: "Non-profit Government Organization Admin Panel",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Engineered a multi-role user authentication admin panel for a non-profit using the MERN stack, integrating essential features for enhanced user interaction and deploying via Docker on AWS for robust scalability.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",

@@ -52,10 +52,9 @@ const Contact = () => {
 							>
 								{INFO.main.email}
 							</a>
-							. Alternatively, you can use the contact form on my
-							website to get in touch. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible.
+							. Alternatively, you can use the contact form below
+							to get in touch. Simply fill out the required fields
+							and I'll get back to you as soon as possible.
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"

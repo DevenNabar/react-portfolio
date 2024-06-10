@@ -223,7 +223,7 @@ const NavBar = (props) => {
 			<div className="flex justify-center items-center w-full">
 				<nav className="flex justify-center items-center fixed top-3 z-50 w-full">
 					<div className="w-96 h-10 backdrop-blur-md shadow-2xl rounded-full flex justify-center items-center">
-						<ul className="flex justify-around items-center w-full pl-0 pr-5 py-3 list-none">
+						<ul className="flex justify-around items-center w-full pl-2 pr-2 py-3 list-none">
 							<li className={navLinkClass("home")}>
 								<Link to="/">Home</Link>
 							</li>
