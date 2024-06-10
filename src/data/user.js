@@ -20,7 +20,7 @@ const INFO = {
 	about: {
 		title: "About Me",
 		description:
-			"Currently pursuing a Master of Science in Computer Science at the University of Southern California with a focus on Analysis of Algorithms, Web Technologies, Machine Learning, Natural Language Processing, Information Retrieval and Database Systems. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
+			"I am currently pursuing a Master of Science in Computer Science at the University of Southern California with a focus on Web Technologies, Machine Learning, Natural Language Processing, Information Retrieval, Analysis of Algorithms and Database Systems. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
 	},
 
 	articles: {
