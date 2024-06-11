@@ -223,7 +223,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="pt-6 grid grid-cols-3 gap-8">
-							<div className="col-span-2 flex flex-col justify-center p-2 ">
+							<div className="col-span-2 flex flex-col justify-center p-2 text-gray-600 ">
 								<div className="text-6xl font-bold mb-4 ">
 									{INFO.homepage.title}
 								</div>
