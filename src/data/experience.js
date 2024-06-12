@@ -4,14 +4,14 @@ const EXPERIENCE = [
 		date: "May, 2024",
 		company: "WorkUp",
 		description:
-			"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.",
+			"Designed and implemented both front-end and back-end solutions, contributing to rapid product iterations, scaling the application to meet growing user demands, and enhancing functionality to drive user engagement and business growth.",
 	},
 	{
 		title: "Data Scientist, Intern",
 		date: "Sep, 2022",
 		company: "Hubmatrix Technologies",
 		description:
-			"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.",
+			"Analyzed and leveraged employee data to optimize internal processes, enhance workforce analytics, and drive strategic decision-making to improve overall operational efficiency.",
 	},
 	{
 		title: "Software Developer, Intern",
@@ -26,7 +26,7 @@ const EXPERIENCE = [
 
 		company: "TechStride LLC",
 		description:
-			"Pretium lectus quam id leo. Urna et pharetra pharetra massa massa. Adipiscing enim eu neque aliquam vestibulum morbi blandit cursus risus.",
+			"Overhauled the company website's front-end, leading to a significant increase in site visits, collaborated closely with team members and senior executives on project requirements, gained hands-on agile experience, and optimized the codebase to substantially improve website speed.",
 	},
 ];
 
