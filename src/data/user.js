@@ -15,15 +15,15 @@ const INFO = {
 		title1: "Hi 👋,",
 		title2: "I'm Deven Nabar,",
 		title3: "Software Developer 👨‍💻,",
-		title4: "Based in Los Angeles 🏝️, California ☀️.",
+		title4: "Based in Los Angeles 🏝️.",
 		description:
-			"I am a skilled software engineer leveraging my expertise in web technologies, machine learning, and databases to develop innovative solutions across various domains. I am advancing my knowledge through a Master's degree in Computer Science at the University of Southern California, focusing on learning innovative topics and techniques. With valuable experience from internships at Hub Matrix Technologies, VB Consultancy, and Techstride Global, I have honed my software development, web development, testing, and debugging skills. I am dedicated to creating efficient, reliable, and user-friendly software, thriving in diverse and collaborative team environments. Driven by a passion to contribute to advancing technology and society, I aim to leverage my technical expertise and educational background towards impactful projects. I enjoy running and frequenting the gym in my leisure time, maintaining a balanced lifestyle.",
+			"I am a skilled software engineer and USC Master's student specializing in web technologies, machine learning, and databases. I leverage my experience from multiple tech internships to develop innovative solutions and am passionate about creating impactful technology.",
 	},
 
 	about: {
 		title: "About Me",
 		description:
-			"I am currently pursuing a Master of Science in Computer Science at the University of Southern California with a focus on Web Technologies, Machine Learning, Natural Language Processing, Information Retrieval, Analysis of Algorithms and Database Systems. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
+			"I am currently pursuing a Master of Science in Computer Science at the University of Southern California. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
 	},
 
 	articles: {

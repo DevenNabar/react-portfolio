@@ -52,7 +52,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
 	return (
 		<div className="flex flex-col md:flex-row justify-between items-center py-6 mt-12 border-t">
-			<ul className="flex justify-around items-center flex-wrap w-full md:w-auto space-x-4 md:space-x-8 text-sm font-bold text-gray-400">
+			<ul className="flex justify-around items-center flex-wrap w-full md:w-auto space-x-4 md:space-x-8 text-sm font-bold text-slate-400">
 				<li>
 					<Link
 						to="/"
@@ -103,7 +103,7 @@ const Footer = () => {
 					</a>
 				</li>
 			</ul>
-			<div className="text-right w-full md:w-auto text-xs text-gray-500">
+			<div className="text-right w-full md:w-auto text-xs text-slate-500">
 				© 2024 dnabar.me. All Rights Reserved.
 			</div>
 		</div>

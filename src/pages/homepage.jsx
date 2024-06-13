@@ -148,7 +148,7 @@ const Homepage = () => {
 				/>
 			</Helmet>
 
-			<div className="flex flex-col min-h-screen bg-slate-100">
+			{/* <div className="flex flex-col min-h-screen bg-slate-100">
 				<NavBar active="home" />
 				<div className="flex-grow flex justify-center items-center">
 					<div className="w-full max-w-7xl p-20">
@@ -188,6 +188,51 @@ const Homepage = () => {
 						</div>
 
 						<Footer />
+					</div>
+				</div>
+			</div> */}
+			<NavBar active="home" />
+			<div className="w-full flex justify-center bg-slate-100">
+				<div className="max-w-7xl w-full">
+					<div className="pt-20 px-4 md:px-6 lg:px-8">
+						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10">
+							<div className="lg:w-2/3 text-slate-600">
+								<div>
+									<div className="text-5xl font-semibold py-2">
+										{INFO.homepage.title1}
+									</div>
+									<div className="text-5xl font-semibold py-2">
+										{INFO.homepage.title2}
+									</div>
+									<div className="text-5xl font-semibold py-2">
+										{INFO.homepage.title3}
+									</div>
+									<div className="text-5xl font-semibold py-2">
+										{INFO.homepage.title4}
+									</div>
+								</div>
+								<div className="text-base py-4">
+									{INFO.homepage.description}
+								</div>
+							</div>
+							<div className="lg:w-1/3">
+								<div className="overflow-hidden transform rounded-lg">
+									<img
+										src="homepage.jpg"
+										alt="Homepage"
+										className="block w-full"
+									/>
+								</div>
+							</div>
+						</div>
+
+						<div className="mt-12">
+							<AllProjects />
+						</div>
+
+						<div className="mt-12">
+							<Footer />
+						</div>
 					</div>
 				</div>
 			</div>

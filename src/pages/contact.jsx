@@ -37,7 +37,7 @@ const Contact = () => {
 							</div>
 						</div>
 
-						<div className="text-gray-600 text-center flex flex-col justify-around mt-20">
+						<div className="text-slate-600 text-center flex flex-col justify-around mt-20">
 							<div className="text-5xl font-semibold">
 								Let's Get in Touch!!!
 							</div>
@@ -74,7 +74,7 @@ const Contact = () => {
 			<div className="w-full flex justify-center bg-slate-100">
 				<div className="max-w-7xl w-full">
 					<div className="pt-20 px-4 md:px-6 lg:px-8">
-						<div className="flex flex-col text-gray-600 text-center pt-10">
+						<div className="flex flex-col text-slate-600 text-center pt-10">
 							<div className="text-5xl font-semibold text-left">
 								Let's Get in Touch!!!
 							</div>
