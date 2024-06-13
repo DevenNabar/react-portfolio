@@ -12,7 +12,10 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Hi 👋, I'm Deven Nabar, Software Developer 👨‍💻, Based in Los Angeles 🏝️, California  ☀️",
+		title1: "Hi 👋,",
+		title2: "I'm Deven Nabar,",
+		title3: "Software Developer 👨‍💻,",
+		title4: "Based in Los Angeles 🏝️, California ☀️.",
 		description:
 			"I am a skilled software engineer leveraging my expertise in web technologies, machine learning, and databases to develop innovative solutions across various domains. I am advancing my knowledge through a Master's degree in Computer Science at the University of Southern California, focusing on learning innovative topics and techniques. With valuable experience from internships at Hub Matrix Technologies, VB Consultancy, and Techstride Global, I have honed my software development, web development, testing, and debugging skills. I am dedicated to creating efficient, reliable, and user-friendly software, thriving in diverse and collaborative team environments. Driven by a passion to contribute to advancing technology and society, I aim to leverage my technical expertise and educational background towards impactful projects. I enjoy running and frequenting the gym in my leisure time, maintaining a balanced lifestyle.",
 	},

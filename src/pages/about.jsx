@@ -86,7 +86,7 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
+// import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 import WorkExp from "../components/about/workexp";
 
@@ -111,16 +111,10 @@ const About = () => {
 				/>
 			</Helmet>
 
+			<NavBar active="about" />
 			<div className="w-full flex justify-center bg-slate-100">
-				<div className="max-w-5xl w-full ">
-					<NavBar active="about" />
-					<div className="pt-12 px-4 md:px-6 lg:px-8">
-						<div className="flex justify-start pt-6">
-							<div className="fixed top-4 z-10">
-								<Logo width={46} />
-							</div>
-						</div>
-
+				<div className="max-w-7xl w-full ">
+					<div className="pt-20 px-4 md:px-6 lg:px-8">
 						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10">
 							<div className="lg:w-2/3  text-slate-600">
 								<div className="text-5xl font-semibold">
@@ -134,7 +128,7 @@ const About = () => {
 								</div>
 							</div>
 							<div className="lg:w-1/3">
-								<div className="rounded-full overflow-hidden shadow-2xl transform">
+								<div className=" overflow-hidden  transform rounded-lg">
 									<img
 										src="about.jpg"
 										alt="about"

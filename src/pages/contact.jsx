@@ -1,85 +1,9 @@
-// import React, { useEffect } from "react";
-// import { Helmet } from "react-helmet";
-
-// import NavBar from "../components/common/navBar";
-// import Footer from "../components/common/footer";
-// import Logo from "../components/common/logo";
-// import Socials from "../components/about/socials";
-
-// import INFO from "../data/user";
-// import SEO from "../data/seo";
-
-// import "./styles/contact.css";
-
-// const Contact = () => {
-// 	useEffect(() => {
-// 		window.scrollTo(0, 0);
-// 	}, []);
-
-// 	const currentSEO = SEO.find((item) => item.page === "contact");
-
-// 	return (
-// 		<React.Fragment>
-// 			<Helmet>
-// 				<title>{`Contact | ${INFO.main.title}`}</title>
-// 				<meta name="description" content={currentSEO.description} />
-// 				<meta
-// 					name="keywords"
-// 					content={currentSEO.keywords.join(", ")}
-// 				/>
-// 			</Helmet>
-
-// 			<div className="page-content">
-// 				<NavBar active="contact" />
-// 				<div className="content-wrapper">
-// 					<div className="contact-logo-container">
-// 						<div className="contact-logo">
-// 							<Logo width={46} />
-// 						</div>
-// 					</div>
-
-// 					<div className="contact-container">
-// 						<div className="title contact-title">
-// 							Let's Get in Touch!!!
-// 						</div>
-
-// 						<div className="subtitle contact-subtitle">
-// 							Thank you for your interest in getting in touch with
-// 							me. Please feel free to email me directly at &nbsp;
-// 							<a
-// 								className="contact-link"
-// 								href={`mailto:${INFO.main.email}`}
-// 							>
-// 								{INFO.main.email}
-// 							</a>
-// 							. Alternatively, you can use the contact form below
-// 							to get in touch. Simply fill out the required fields
-// 							and I'll get back to you as soon as possible.
-// 						</div>
-// 					</div>
-
-// 					<div className="socials-container">
-// 						<div className="contact-socials">
-// 							<Socials />
-// 						</div>
-// 					</div>
-
-// 					<div className="page-footer">
-// 						<Footer />
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</React.Fragment>
-// 	);
-// };
-
-// export default Contact;
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import Logo from "../components/common/logo";
+// import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
 
 import INFO from "../data/user";
@@ -145,17 +69,11 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-			</div> */}
+				</div> */}
+			<NavBar active="contact" />
 			<div className="w-full flex justify-center bg-slate-100">
-				<div className="max-w-5xl w-full">
-					<NavBar active="contact" />
-					<div className="pt-12 px-4 md:px-6 lg:px-8">
-						<div className="flex justify-start pt-6">
-							<div className="fixed top-4 z-10">
-								<Logo width={46} />
-							</div>
-						</div>
-
+				<div className="max-w-7xl w-full">
+					<div className="pt-20 px-4 md:px-6 lg:px-8">
 						<div className="flex flex-col text-gray-600 text-center pt-10">
 							<div className="text-5xl font-semibold text-left">
 								Let's Get in Touch!!!
@@ -165,7 +83,7 @@ const Contact = () => {
 								with me. Please feel free to email me directly
 								at &nbsp;
 								<a
-									className="text-teal-500"
+									className="text-emerald-500"
 									href={`mailto:${INFO.main.email}`}
 								>
 									{INFO.main.email}
