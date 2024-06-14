@@ -129,6 +129,7 @@ import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
+import Technology from "../data/technology";
 
 const Homepage = () => {
 	useEffect(() => {
@@ -228,6 +229,9 @@ const Homepage = () => {
 
 						<div className="mt-12">
 							<AllProjects />
+						</div>
+						<div>
+							<Technology />
 						</div>
 
 						<div className="mt-12">

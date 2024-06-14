@@ -141,7 +141,7 @@ const NavBar = ({ active }) => {
 					<span className="sr-only">Open main menu</span>
 
 					<svg
-						class="w-5 h-5"
+						className="w-5 h-5"
 						aria-hidden="true"
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -149,9 +149,9 @@ const NavBar = ({ active }) => {
 					>
 						<path
 							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
 							d="M1 1h15M1 7h15M1 13h15"
 						/>
 					</svg>
@@ -198,20 +198,6 @@ const NavBar = ({ active }) => {
 								>
 									Resume
 								</a>
-								{/* <svg
-									xmlns="http://www.w3.org/2000/svg"
-									fill="none"
-									viewBox="0 0 24 24"
-									strokeWidth={1.5}
-									stroke="currentColor"
-									className="size-6"
-								>
-									<path
-										strokeLinecap="round"
-										strokeLinejoin="round"
-										d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
-									/>
-								</svg> */}
 							</div>
 						</li>
 					</ul>
