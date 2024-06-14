@@ -56,7 +56,7 @@ const Notfound = () => {
 
 	return (
 		<React.Fragment>
-			<div className="h-screen overflow-hidden bg-gradient-to-br from-slate-50 to-rose-200 ">
+			<div className="h-screen overflow-hidden bg-gradient-to-tl from-slate-50 to-rose-100 ">
 				<NavBar />
 				<div className="flex flex-col h-full pt-28">
 					<div className="flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
