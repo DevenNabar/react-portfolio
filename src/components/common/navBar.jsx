@@ -162,7 +162,7 @@ const NavBar = ({ active }) => {
 					} w-full md:block md:w-auto`}
 					id="navbar-default"
 				>
-					<ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-slate-100 rounded-lg bg-slate-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-slate-800 md:dark:bg-slate-900 dark:border-slate-700">
+					<ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-slate-100 rounded-lg bg-slate-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-transparent dark:bg-slate-700 md:dark:bg-slate-700 dark:border-slate-700">
 						<li>
 							<Link to="/" className={navLinkClass("home")}>
 								Home
