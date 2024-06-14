@@ -75,7 +75,7 @@ const Notfound = () => {
 
 						<a
 							href="/"
-							className=" border-slate-300 border-2 text-base bg-link text-slate-600 py-4 px-8 rounded-full transition duration-300 ease-in-out hover:bg-emerald-200 hover:text-slate-500 hover:scale-110 hover:border-emerald-200"
+							className=" border-slate-400 border-2 text-base bg-link text-slate-600 py-4 px-8 rounded-full transition duration-300 ease-in-out hover:bg-emerald-200 hover:text-slate-500 hover:scale-110 hover:border-emerald-200"
 						>
 							Go back to the home page
 						</a>
