@@ -15,11 +15,11 @@ const Notfound = () => {
 				<NavBar />
 				<div className="flex flex-col h-full pt-28">
 					<div className="flex flex-col justify-center items-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-						<div className="text-7xl font-bold text-slate-600 pt-4">
+						<div className="text-8xl font-bold text-red-600  pt-4">
 							404
 						</div>
 						<div className="text-5xl font-bold text-slate-600 pt-4">
-							Oops! <FontAwesomeIcon icon={faFaceSadTear} /> Sorry
+							Oopsieee! <FontAwesomeIcon icon={faFaceSadTear} />
 						</div>
 						<div className="text-lg text-slate-500 my-8 text-center ">
 							The page you're looking for cannot be found.
