@@ -4,6 +4,10 @@ const FRONTEND = [
 		image: `${process.env.REACT_APP_BUCKET_URL}/technology/react.svg`,
 	},
 	{
+		name: "Angular",
+		image: `${process.env.REACT_APP_BUCKET_URL}/technology/angular.svg`,
+	},
+	{
 		name: "Vite",
 		image: `${process.env.REACT_APP_BUCKET_URL}/technology/vite.svg`,
 	},
