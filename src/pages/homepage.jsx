@@ -32,7 +32,7 @@ const Homepage = () => {
 				<div className="max-w-7xl w-full">
 					<div className="pt-20 px-4 md:px-6 lg:px-8">
 						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10">
-							<div className="lg:w-2/3 text-slate-600 bg-white rounded-lg hover:scale-110 transition duration-300 ">
+							<div className="lg:w-2/3 text-slate-600 rounded-lg ">
 								<div>
 									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title1}
@@ -52,7 +52,7 @@ const Homepage = () => {
 								</div>
 							</div>
 							<div className="lg:w-1/3">
-								<div className="overflow-hidden transform rounded-lg hover:scale-110 transition duration-300 ">
+								<div className="overflow-hidden transform rounded-lg  ">
 									<img
 										src="homepage.jpg"
 										alt="Homepage"
