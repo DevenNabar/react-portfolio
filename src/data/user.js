@@ -21,7 +21,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "About Me",
+		title: "About Me.",
 		description:
 			"I am currently pursuing a Master of Science in Computer Science at the University of Southern California. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
 	},

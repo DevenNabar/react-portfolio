@@ -31,7 +31,7 @@ const Projects = () => {
 				<div className="max-w-7xl w-full ">
 					<div className="pt-20 px-4 md:px-6 lg:px-8">
 						<div className="text-5xl font-semibold m-4 text-slate-600 text-left pt-5">
-							Projects
+							Projects.
 						</div>
 						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10 justify-center">
 							<CardsGrid />

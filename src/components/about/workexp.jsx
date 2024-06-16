@@ -5,7 +5,7 @@ const WorkExp = () => {
 	return (
 		<div className="my-6">
 			<div className="text-5xl font-semibold text-slate-600">
-				Work Experience
+				Work Experience.
 			</div>
 			{EXPERIENCE.map((exp, index) => (
 				<div key={index} className="relative pl-8 sm:pl-32 py-6 group">

@@ -189,7 +189,7 @@ const Technology = () => {
 		<section className="bg-slate-100 mt-[-120px] pt-48 pb-16 px-4 md:mt-[-80px] text-center">
 			<div className="container mx-auto">
 				<div className="text-5xl font-semibold mb-4 text-slate-600 text-left pb-10">
-					Technology
+					Technology.
 				</div>
 				{/* <hr className="w-[10%] mx-auto border-2 border-emerald-500 opacity-100 my-6 text-left" /> */}
 				{/* <p className="text-base mt-4 text-slate-600">
