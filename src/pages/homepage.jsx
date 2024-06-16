@@ -125,11 +125,11 @@ import { Helmet } from "react-helmet";
 
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import Technology from "../data/technology";
+import CardsGrid from "../components/common/cardsGrid";
 
 const Homepage = () => {
 	useEffect(() => {
@@ -199,20 +199,20 @@ const Homepage = () => {
 						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10">
 							<div className="lg:w-2/3 text-slate-600">
 								<div>
-									<div className="text-5xl font-semibold py-2">
+									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title1}
 									</div>
-									<div className="text-5xl font-semibold py-2">
+									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title2}
 									</div>
-									<div className="text-5xl font-semibold py-2">
+									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title3}
 									</div>
-									<div className="text-5xl font-semibold py-2">
+									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title4}
 									</div>
 								</div>
-								<div className="text-base py-4">
+								<div className="text-base py-4 m-4">
 									{INFO.homepage.description}
 								</div>
 							</div>
@@ -226,9 +226,11 @@ const Homepage = () => {
 								</div>
 							</div>
 						</div>
-
-						<div className="mt-12">
-							<AllProjects />
+						<div className="text-5xl font-semibold m-4 text-slate-600 text-left py-10">
+							Projects
+						</div>
+						<div>
+							<CardsGrid />
 						</div>
 						<div>
 							<Technology />

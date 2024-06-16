@@ -203,7 +203,7 @@ const Technology = () => {
 					{FREQUENT.map((technology) => (
 						<div
 							key={technology.name}
-							className="m-4 p-4 w-20 h-20 rounded-full bg-white transform transition duration-300  hover:-translate-y-1 hover:scale-110"
+							className="m-4 p-4 w-20 h-20 rounded-full bg-white transform transition duration-300 hover:scale-110"
 						>
 							<img
 								src={technology.image}

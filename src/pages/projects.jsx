@@ -3,12 +3,10 @@ import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
-import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
-import "./styles/projects.css";
+import CardsGrid from "../components/common/cardsGrid";
 
 const Projects = () => {
 	useEffect(() => {
@@ -20,7 +18,7 @@ const Projects = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Project | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -28,33 +26,19 @@ const Projects = () => {
 				/>
 			</Helmet>
 
-			<div className="page-content">
-				<NavBar active="projects" />
-				<div className="content-wrapper">
-					<div className="projects-container">
-						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+			<NavBar active="projects" />
+			<div className="w-full flex justify-center bg-slate-100">
+				<div className="max-w-7xl w-full ">
+					<div className="pt-20 px-4 md:px-6 lg:px-8">
+						<div className="text-5xl font-semibold m-4 text-slate-600 text-left pt-5">
+							Projects
 						</div>
-
-						<div className="subtitle projects-subtitle">
-							I've worked on a variety of projects over the years
-							and I'm proud of the progress I've made. Many of
-							these projects are open-source and available for
-							others to explore and contribute to. If you're
-							interested in any of the projects I've worked on,
-							please feel free to check out the code and suggest
-							any improvements or enhancements you might have in
-							mind. Collaborating with others is a great way to
-							learn and grow, and I'm always open to new ideas and
-							feedback.
-						</div>
-
-						<div className="projects-list">
-							<AllProjects />
+						<div className="flex flex-col lg:flex-row lg:space-x-8 pt-10 justify-center">
+							<CardsGrid />
 						</div>
 					</div>
-					<div className="page-footer">
+
+					<div className="mt-12">
 						<Footer />
 					</div>
 				</div>

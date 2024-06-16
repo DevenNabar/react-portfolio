@@ -26,12 +26,6 @@ const INFO = {
 			"I am currently pursuing a Master of Science in Computer Science at the University of Southern California. With hands-on experience in web and software development, I am passionate about leveraging innovative technologies to solve real-world challenges.",
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
-
 	projects: [
 		{
 			title: "Global Speak",
