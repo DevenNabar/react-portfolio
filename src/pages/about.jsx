@@ -45,7 +45,7 @@ const About = () => {
 								</div>
 							</div>
 							<div className="lg:w-1/3">
-								<div className=" overflow-hidden  transform rounded-lg">
+								<div className=" overflow-hidden  transform rounded-lg hover:scale-110  transition duration-300">
 									<img
 										src="about.jpg"
 										alt="About"

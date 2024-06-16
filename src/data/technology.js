@@ -197,7 +197,9 @@ const Technology = () => {
 				</p> */}
 				<p className="mb-2 text-slate-600">
 					Most Frequently Used:{" "}
-					<b className="font-bold text-emerald-600">MERN STACK</b>
+					<b className="  bg-emerald-200 rounded-full px-3 py-1 text-sm  mr-2 mb-2 font-extrabold text-emerald-800">
+						MERN STACK
+					</b>
 				</p>
 				<div className="flex justify-center items-center flex-wrap">
 					{FREQUENT.map((technology) => (
