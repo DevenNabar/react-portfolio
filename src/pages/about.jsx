@@ -37,7 +37,7 @@ const About = () => {
 								<div className="text-5xl font-semibold">
 									{INFO.about.title}
 								</div>
-								<div className="text-base mt-4">
+								<div className="text-base my-6">
 									{INFO.about.description}
 								</div>
 								<div className="hidden lg:block pt-12 pb-12">
