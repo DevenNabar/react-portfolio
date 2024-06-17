@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import Typed from "typed.js";
 
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -38,10 +39,10 @@ const Homepage = () => {
 										{INFO.homepage.title1}
 									</div>
 									<div className="text-5xl font-semibold py-1 m-4">
-										{INFO.homepage.title2}
+										{INFO.homepage.title2} 👨‍💻
 									</div>
 									<div className="text-5xl font-semibold py-1 m-4">
-										{INFO.homepage.title3}
+										<AutoTyping />
 									</div>
 									<div className="text-5xl font-semibold py-1 m-4">
 										{INFO.homepage.title4}
@@ -81,6 +82,32 @@ const Homepage = () => {
 	);
 };
 
+function AutoTyping() {
+	// Create reference to store the DOM element containing the animation
+	const el = React.useRef(null);
+
+	React.useEffect(() => {
+		const typed = new Typed(el.current, {
+			strings: [
+				"I am a Software Developer,",
+				"I am a Fitness Enthusiast,",
+				"I am a Self-Learner,",
+			],
+			typeSpeed: 60,
+		});
+
+		return () => {
+			// Destroy Typed instance during cleanup to stop animation
+			typed.destroy();
+		};
+	}, []);
+
+	return (
+		<div className="App">
+			<span ref={el} />
+		</div>
+	);
+}
 export default Homepage;
 
 // added env
