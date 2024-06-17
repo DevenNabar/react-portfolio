@@ -53,11 +53,11 @@ const Contact = () => {
 							<div className="pt-12 pb-12">
 								<Socials />
 							</div>
-							<div class="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg">
+							{/* <div class="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg">
 								<form
 									name="contact"
 									method="POST"
-									data-netlify="true"
+									netlify
 									class="space-y-6"
 								>
 									<div>
@@ -98,7 +98,7 @@ const Contact = () => {
 										</button>
 									</div>
 								</form>
-							</div>
+							</div> */}
 						</div>
 
 						<div className="mt-12">
