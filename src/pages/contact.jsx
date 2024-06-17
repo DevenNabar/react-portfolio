@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useState } from "react";
+// import { useState } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -16,9 +16,9 @@ const Contact = () => {
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
-	const [name, setName] = useState("");
-	const [message, setMessage] = useState("");
-	console.log(name, message);
+	// const [name, setName] = useState("");
+	// const [message, setMessage] = useState("");
+	// console.log(name, message);
 
 	return (
 		<React.Fragment>
@@ -59,7 +59,7 @@ const Contact = () => {
 							</div>
 
 							{/* Start Form */}
-							<div>
+							{/* <div>
 								<form
 									name="contact"
 									method="POST"
@@ -97,7 +97,7 @@ const Contact = () => {
 									</div>
 									<button type="submit">Send Message</button>
 								</form>
-							</div>
+							</div> */}
 						</div>
 
 						<div className="mt-12">
