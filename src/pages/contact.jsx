@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useState } from "react";
 import { Helmet } from "react-helmet";
 
 import NavBar from "../components/common/navBar";
@@ -15,6 +16,9 @@ const Contact = () => {
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
+	const [name, setName] = useState("");
+	const [message, setMessage] = useState("");
+	console.log(name, message);
 
 	return (
 		<React.Fragment>
@@ -53,52 +57,47 @@ const Contact = () => {
 							<div className="pt-12 pb-12">
 								<Socials />
 							</div>
-							{/* <div class="max-w-lg mx-auto p-8 bg-white shadow-lg rounded-lg">
+
+							{/* Start Form */}
+							<div>
 								<form
 									name="contact"
 									method="POST"
-									netlify
-									class="space-y-6"
+									data-netlify="true"
 								>
-									<div>
-										<label class="block text-sm font-medium text-gray-700">
-											Your Name:
-											<input
-												type="text"
-												name="name"
-												class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-											/>
-										</label>
+									<input
+										type="hidden"
+										name="form-name"
+										value="contact"
+									/>
+									<div className="input">
+										<label htmlFor="name">Name</label>
+										<input
+											type="text"
+											id="name"
+											name="name"
+											placeholder="Your Name"
+											value={name}
+											onChange={(e) =>
+												setName(e.target.value)
+											}
+										/>
 									</div>
-									<div>
-										<label class="block text-sm font-medium text-gray-700">
-											Your Email:
-											<input
-												type="email"
-												name="email"
-												class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-											/>
-										</label>
+									<div className="input">
+										<label htmlFor="message">Message</label>
+										<textarea
+											id="message"
+											name="message"
+											placeholder="Your Message"
+											value={message}
+											onChange={(e) =>
+												setMessage(e.target.value)
+											}
+										></textarea>
 									</div>
-									<div>
-										<label class="block text-sm font-medium text-gray-700">
-											Message:
-											<textarea
-												name="message"
-												class="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
-											></textarea>
-										</label>
-									</div>
-									<div>
-										<button
-											type="submit"
-											class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-										>
-											Send
-										</button>
-									</div>
+									<button type="submit">Send Message</button>
 								</form>
-							</div> */}
+							</div>
 						</div>
 
 						<div className="mt-12">
