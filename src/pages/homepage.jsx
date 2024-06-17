@@ -89,9 +89,9 @@ function AutoTyping() {
 	React.useEffect(() => {
 		const typed = new Typed(el.current, {
 			strings: [
-				"I am a Software Developer,",
-				"I am a Fitness Enthusiast,",
 				"I am a Self-Learner,",
+				"I am a Fitness Enthusiast,",
+				"I am a Software Developer,",
 			],
 			typeSpeed: 60,
 		});
