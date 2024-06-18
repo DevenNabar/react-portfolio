@@ -113,6 +113,7 @@
 // export default Contact;
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { useState } from "react";
 
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
@@ -127,7 +128,40 @@ const Contact = () => {
 	}, []);
 
 	const currentSEO = SEO.find((item) => item.page === "contact");
+	const [name, setName] = useState("");
+	const [message, setMessage] = useState("");
+	const [email, setEmail] = useState("");
+	const handleSubmit = async (event) => {
+		event.preventDefault();
+		console.log(name, email, message);
+		if (name && email && message) {
+			try {
+				const response = await fetch("/.netlify/functions/send", {
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						name,
+						email,
+						message,
+					}),
+				});
+				const data = await response.json();
 
+				if (response.ok) {
+					console.log("submitted successfully");
+					setName("");
+					setEmail("");
+					setMessage("");
+				} else {
+					throw new Error(data.message || "Something went wrong");
+				}
+			} catch (error) {
+				console.log(error);
+			}
+		} else {
+			console.log("Please fill out all fields");
+		}
+	};
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -161,11 +195,26 @@ const Contact = () => {
 								>
 									{INFO.main.email}
 								</a>
-								{/* . Alternatively, you can use the contact form
+								. Alternatively, you can use the contact form
 								below to get in touch. Simply fill out the
 								required fields and I'll get back to you as soon
-								as possible. */}
+								as possible.
 							</p>
+							<form onSubmit={handleSubmit}>
+								<input
+									value={name}
+									onChange={(e) => setName(e.target.value)}
+								></input>
+								<input
+									value={message}
+									onChange={(e) => setMessage(e.target.value)}
+								></input>
+								<input
+									value={email}
+									onChange={(e) => setEmail(e.target.value)}
+								></input>
+								<button type="submit">Send Message</button>
+							</form>
 							<div className="pt-12 pb-12">
 								<Socials />
 							</div>
