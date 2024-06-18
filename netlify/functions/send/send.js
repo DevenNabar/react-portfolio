@@ -11,7 +11,7 @@ const handler = async (event) => {
 		const body = JSON.parse(event.body);
 
 		await enquiries.insertOne(body);
-
+		//working
 		return {
 			statusCode: 200,
 			body: JSON.stringify({ message: "Enquiry added successfully" }),
