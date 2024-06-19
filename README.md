@@ -2,4 +2,4 @@
 
 ## My Portfolio Website
 
-To run the file do 'npm start'
+To run the file 'npm start'
